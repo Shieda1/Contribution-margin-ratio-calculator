@@ -55,7 +55,6 @@ btn.addEventListener('click', function() {
 // calculation
 
 function computeMarginRatio() {
-  console.log((Number(margin.value) / Number(sales.value)) * 100)
   return (Number(margin.value) / Number(sales.value)) * 100;
 }
 
