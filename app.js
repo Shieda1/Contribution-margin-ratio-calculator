@@ -43,13 +43,13 @@ salesRadio.addEventListener('click', function() {
 btn.addEventListener('click', function() {
   
   if(marginRatioRadio.checked)
-    result.textContent = `Margin ratio = ${computeMarginRatio().toFixed(2)}%`;
+    result.textContent = `contribution margin ratio = ${computeMarginRatio().toFixed(2)}%`;
 
   else if(marginRadio.checked)
-    result.textContent = `Margin = ${computeMargin().toFixed(2)}`;
+    result.textContent = `margin = ${computeMargin().toFixed(2)}`;
 
   else if(salesRadio.checked)
-    result.textContent = `Sales = ${computeSales().toFixed(2)}`;
+    result.textContent = `sales = ${computeSales().toFixed(2)}`;
 })
 
 // calculation
